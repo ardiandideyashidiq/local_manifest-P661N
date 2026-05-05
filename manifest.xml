@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github-https" fetch="https://github.com" />
+
+    <project
+        name="naden01/android_vendor_sony_dolby"
+        path="vendor/sony/dolby"
+        remote="github-https"
+        revision="sixteen-redesign" />
+
+    <project
+        name="MillenniumOSS/android_device_mediatek_sepolicy_vndr"
+        path="device/mediatek/sepolicy_vndr"
+        remote="github-https"
+        revision="sixteen-qpr2" />
+
+    <project
+        name="MillenniumOSS/android_vendor_mediatek_ims"
+        path="vendor/mediatek/ims"
+        remote="github-https"
+        revision="sixteen-qpr2" />
+
+    <project
+        name="MillenniumOSS/android_hardware_mediatek"
+        path="hardware/mediatek"
+        remote="github-https"
+        revision="sixteen" />
+
+    <project
+        name="ardiandideyashidiq/android_device_itel_P661N-kernel"
+        path="device/itel/P661N-kernel"
+        remote="github-https"
+        revision="lineage-23.2" />
+
+    <project
+        name="ardiandideyashidiq/android_device_itel_P661N"
+        path="device/itel/P661N"
+        remote="github-https"
+        revision="lineage-23.2" />
+
+    <project
+        name="ardiandideyashidiq/android_vendor_itel_P661N"
+        path="vendor/itel/P661N"
+        remote="github-https"
+        revision="lineage-23.2" />
+
+    <project
+        name="ardiandideyashidiq/android_vendor_lineage-priv_keys"
+        path="vendor/lineage-priv/keys"
+        remote="github-https"
+        revision="master" />
+</manifest>
