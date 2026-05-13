@@ -43,10 +43,4 @@
         path="vendor/itel/P661N"
         remote="github-https"
         revision="lineage-23.2" />
-
-    <project
-        name="ardiandideyashidiq/android_vendor_lineage-priv_keys"
-        path="vendor/lineage-priv/keys"
-        remote="github-https"
-        revision="master" />
 </manifest>
