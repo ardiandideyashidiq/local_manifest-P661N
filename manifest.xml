@@ -12,7 +12,7 @@
         name="MillenniumOSS/android_device_mediatek_sepolicy_vndr"
         path="device/mediatek/sepolicy_vndr"
         remote="github-https"
-        revision="sixteen-qpr2" />
+        revision="sixteen-qpr2-rebase" />
 
     <project
         name="MillenniumOSS/android_vendor_mediatek_ims"
