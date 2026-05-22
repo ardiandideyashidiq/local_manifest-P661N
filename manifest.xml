@@ -1,46 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github-https" fetch="https://github.com" />
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
 
-    <project
-        name="naden01/android_vendor_sony_dolby"
-        path="vendor/sony/dolby"
-        remote="github-https"
-        revision="sixteen-redesign" />
+    <!-- Remotes -->
+    <remote name="ardiandideyashidiq" fetch="https://github.com/ardiandideyashidiq" clone-depth="1" />
+    <remote name="MillenniumOSS" fetch="https://github.com/MillenniumOSS" clone-depth="1" />
 
-    <project
-        name="MillenniumOSS/android_device_mediatek_sepolicy_vndr"
-        path="device/mediatek/sepolicy_vndr"
-        remote="github-https"
-        revision="sixteen-qpr2-rebase" />
+    <!-- Removals -->
 
-    <project
-        name="MillenniumOSS/android_vendor_mediatek_ims"
-        path="vendor/mediatek/ims"
-        remote="github-https"
-        revision="sixteen-qpr2" />
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/itel/P661N-kernel" name="android_device_itel_P661N-kernel" remote="ardiandideyashidiq" revision="lineage-23.2" />
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen-qpr2-rebase" />
+    <project path="device/itel/P661N" name="android_device_itel_P661N" remote="ardiandideyashidiq" revision="lineage-23.2" />
 
-    <project
-        name="MillenniumOSS/android_hardware_mediatek"
-        path="hardware/mediatek"
-        remote="github-https"
-        revision="sixteen" />
+    <!-- Device - Common -->
+    <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="sixteen-qpr2" />
 
-    <project
-        name="ardiandideyashidiq/android_device_itel_P661N-kernel"
-        path="device/itel/P661N-kernel"
-        remote="github-https"
-        revision="lineage-23.2" />
+    <!-- Kernel -->
 
-    <project
-        name="ardiandideyashidiq/android_device_itel_P661N"
-        path="device/itel/P661N"
-        remote="github-https"
-        revision="lineage-23.2" />
+    <!-- Vendor -->
+    <project path="vendor/itel/P661N" name="android_vendor_itel_P661N" remote="ardiandideyashidiq" revision="lineage-23.2" />
+    <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen-qpr2" />
+    <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="MillenniumOSS" revision="sixteen-redesign" />
 
-    <project
-        name="ardiandideyashidiq/android_vendor_itel_P661N"
-        path="vendor/itel/P661N"
-        remote="github-https"
-        revision="lineage-23.2" />
+    <!-- Vendor - Common -->
+
+    <!-- Hardware -->
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="sixteen" />
+
 </manifest>
