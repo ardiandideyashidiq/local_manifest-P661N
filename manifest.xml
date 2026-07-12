@@ -23,7 +23,8 @@
     <project path="vendor/itel/P661N" name="android_vendor_itel_P661N" remote="ardiandideyashidiq" revision="lineage-23.2" />
     <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen-qpr2" />
     <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="MillenniumOSS" revision="sixteen-redesign" />
-
+    <project path="vendor/JamesDSP" name="android_vendor_JamesDSP" remote="MillenniumOSS" revision="sixteen" />
+    
     <!-- Vendor - Common -->
 
     <!-- Hardware -->
