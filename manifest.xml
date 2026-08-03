@@ -28,6 +28,6 @@
     <!-- Vendor - Common -->
 
     <!-- Hardware -->
-    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="sixteen" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ardiandideyashidiq" revision="sixteen" />
 
 </manifest>
