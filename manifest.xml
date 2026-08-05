@@ -10,9 +10,9 @@
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/itel/P661N-kernel" name="android_device_itel_P661N-kernel" remote="ardiandideyashidiq" revision="testing" />
+    <project path="device/itel/P661N-kernel" name="android_device_itel_P661N-kernel" remote="ardiandideyashidiq" revision="lineage-23.2" />
     <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen-qpr2-rebase" />
-    <project path="device/itel/P661N" name="android_device_itel_P661N" remote="ardiandideyashidiq" revision="lineage-23.2" />
+    <project path="device/itel/P661N" name="android_device_itel_P661N" remote="ardiandideyashidiq" revision="testing" />
 
     <!-- Device - Common -->
     <project path="device/gki/common-kernel" name="android_device_gki_common-kernel" remote="ardiandideyashidiq" revision="lineage-23.2" />
